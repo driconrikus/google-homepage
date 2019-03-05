@@ -1,3 +1,3 @@
 # google-homepage
 
-This is a Google Search clone page for The Odin Project.
+This is an "almost" identical Google Search page for The Odin Project.
