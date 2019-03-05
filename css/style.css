@@ -2,3 +2,9 @@ body
 {
     background-color: white:
 }
+
+.search {
+    align: center;
+    width: 50%;
+    height: 50%;
+}
