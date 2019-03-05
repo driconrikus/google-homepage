@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Search page!</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="assets/favicon.ico" type="image/x-icon" rel="shortcut icon">
+        <meta name="author" content="Ricardo Valdez">
+        <title>Google</title>
     </head>
     <body>
-        <div class="search">
-            <img src="assets/logo.png" alt="Google" height="256" width="256">
-            <form action="#">
-                <input id="searchfield" type="text" name="search" placeholder="Enter your query..."><br>
-                <button id="gobutton" type="submit" name="search">Search</button>
-                <button id="lucky" type="submit" name="lucky">I'm Feeling Lucky</button>
-            </form>
+        <div class="container">
+                <header>
+                        <div id="right-header">
+                            <a href="#">Gmail</a>
+                            <a href="#">Images</a>
+                            <a href="#"><i class="material-icons">apps</i></a>
+                            <a href="#"><i class="material-icons">notifications</i></a>
+                            <a href="#"><i class="material-icons">account_circle</i></a>
+                        </div>
+                    </header>
+                    <div class="main">
+                        <div class="logo">
+                            <img id="googleLogo" src="assets/logo.png" alt="Google">
+                        </div>
+                        <form>
+                            <div id="searchbox">
+                                <input type="text">
+                                <input type="image" id="voice" src="assets/voice.png" alt="voice search">
+                            </div>
+                            <div class="searchbutton">
+                                <input type="submit" value="Google Search">
+                                <input type="submit" value="I'm Feeling Lucky">
+                            </div>
+                            <p>
+                                Google offered in: <button id="latam">Español (Latinoamérica)</button>
+                            </p>
+                        </form>
+                    </div>
+                    <footer>
+                        <div class="main-footer">
+                            <p>Venezuela</p>
+                        </div>
+                        
+                        <section class="sub-footer">
+                            <div id="left-footer">
+                                <a href="#">Advertising</a>
+                                <a href="#">Business</a>
+                                <a href="#">About</a>
+                            </div>
+                            <div id="right-footer">
+                                <a href="#">Privacy</a>
+                                <a href="#">Terms</a>
+                                <a href="#">Settings</a>
+                            </div>
+                        </section>
+                    </footer>
         </div>
     </body>
 </html>
