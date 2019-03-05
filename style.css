@@ -19,11 +19,10 @@ header, footer {
     height: 60px;
 }
 
-/* header section */
 .container header #right-header {
     float: right;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding-right: 12px;
+    padding-top: 14px;
     align-items: center;
     display: flex;
     justify-content: flex-end;
@@ -32,19 +31,16 @@ header, footer {
 .container header #right-header a {
     padding-right: 15px;
 }
+#headericons {
+    color:  #737373;
+}
 
-#googleApps:hover {
+#headericons:hover {
     color: rgb(0, 0, 0); 
 }
 
-#reminderIcon {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    padding: 3px 3px;
-    margin: 3px 3px 3px 3px;
-    background-color: gray;
-    filter:invert(100%);
+#usericon {
+font-size: 2.8em;
 }
 
 
@@ -55,7 +51,7 @@ header, footer {
     margin-right: auto;
 }
 
-#googleLogo {
+#google{
     margin: 0 auto;
     padding-top: 109px;
     width: 272px;
@@ -78,7 +74,7 @@ form {
 }
 
 form #searchbox {
-    width: 584px;
+    width: 580px;
     height: 44px;
     border: 1px solid lightgrey;
     display: flex;
@@ -87,6 +83,7 @@ form #searchbox {
     border-radius: 25px;
     padding-right: 1em;
     padding-left: 1rem;
+    margin-top: -0.6em;
     margin-bottom: 2rem;
     align-items: center;
 }
@@ -108,15 +105,15 @@ input[type=text]:focus {
 }
 
 form input[type=submit] {
-    width: 142px;
-    height: 40px;
+    width: 130px;
+    height: 38px;
     padding: 0;
     background: #f2f2f2;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 0;
     color: #757575;
     font-family: Arial, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 form input[type=submit]:hover {
@@ -139,14 +136,13 @@ form p #latam {
     border: none;
     background: none;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 form p #latam:hover {
     text-decoration: underline;
 }
 
-/* footer section */
 footer {
     position: fixed;
     left: 0;
